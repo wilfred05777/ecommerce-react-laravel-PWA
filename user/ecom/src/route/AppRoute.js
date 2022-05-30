@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Switch,
+  // Switch,
 } from "react-router-dom";
 import Contact from "../pages/Contact";
 import HomePage from "../pages/HomePage";
