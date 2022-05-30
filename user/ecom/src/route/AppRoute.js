@@ -1,6 +1,11 @@
 import React, { Component, Fragment } from "react";
-// import { Router, Route, Switch } from "react-router";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { Router, Route, Routes } from "react-router";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Contact from "../pages/Contact";
 import HomePage from "../pages/HomePage";
 
