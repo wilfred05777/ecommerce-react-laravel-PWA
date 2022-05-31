@@ -20,7 +20,7 @@ class NewArrival extends Component {
   render() {
     var settings = {
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 500,
       autoplay: true,
       autoplaySpeed: 3000,
