@@ -9,7 +9,7 @@ import Slider3 from "../../assets/images/slider3.jpg";
 export class HomeSlider extends Component {
   render() {
     var settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       autoplay: true,
