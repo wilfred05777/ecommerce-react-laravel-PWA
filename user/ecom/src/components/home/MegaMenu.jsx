@@ -13,6 +13,7 @@ class MegaMenu extends Component {
   MegaMenu() {
     var acc = document.getElementsByClassName("accordion");
     var accNum = acc.length;
+    // alert(accNum);
     var i;
     for (i = 0; i < accNum; i++) {
       acc[i].addEventListener("click", function() {
@@ -33,6 +34,7 @@ class MegaMenu extends Component {
         <div className="accordionMenuDivInside">
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -57,6 +59,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -81,6 +84,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -105,6 +109,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -129,6 +134,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -153,6 +159,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
@@ -177,6 +184,7 @@ class MegaMenu extends Component {
 
           <button className="accordion">
             <img
+              alt=""
               className="accordionMenuIcon"
               src="https://image.flaticon.com/icons/png/128/739/739249.png"
             />
