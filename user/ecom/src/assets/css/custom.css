@@ -9,6 +9,8 @@
 @import "./navMenuMobile.css";
 @import "./typo.css";
 @import "./animate.min.css";
+@import "./megaMenuMobile.css";
+@import "./megaMenuAll.css";
 
 body {
   background-color: #fff;
