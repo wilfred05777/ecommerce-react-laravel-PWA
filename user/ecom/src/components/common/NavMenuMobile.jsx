@@ -70,7 +70,9 @@ export class NavMenuMobile extends Component {
               </Row>
             </Container>
 
-            <div className={this.state.SideNavState}></div>
+            <div className={this.state.SideNavState}>
+              <MegaMenuMobile />
+            </div>
             <div
               onClick={this.ContentOverlayClickHandler}
               className={this.state.ContentOverState}

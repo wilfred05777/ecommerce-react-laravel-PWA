@@ -9,11 +9,9 @@ class MegaMenu extends Component {
   componentDidMount() {
     this.MegaMenu();
   }
-
   MegaMenu() {
     var acc = document.getElementsByClassName("accordion");
     var accNum = acc.length;
-    // alert(accNum);
     var i;
     for (i = 0; i < accNum; i++) {
       acc[i].addEventListener("click", function() {
@@ -27,6 +25,32 @@ class MegaMenu extends Component {
       });
     }
   }
+  MenuItemClick = (event) => {
+    event.target.classList.toggle("active");
+    var panel = event.target.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  };
+  // MegaMenu() {
+  //   var acc = document.getElementsByClassName("accordion");
+  //   var accNum = acc.length;
+  //   // alert(accNum);
+  //   var i;
+  //   for (i = 0; i < accNum; i++) {
+  //     acc[i].addEventListener("click", function() {
+  //       this.classList.toggle("active");
+  //       var panel = this.nextElementSibling;
+  //       if (panel.style.maxHeight) {
+  //         panel.style.maxHeight = null;
+  //       } else {
+  //         panel.style.maxHeight = panel.scrollHeight + "px";
+  //       }
+  //     });
+  //   }
+  // }
 
   render() {
     return (
