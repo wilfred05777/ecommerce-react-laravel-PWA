@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import FooterDesktop from "../components/common/FooterDesktop";
 import NavMenuDesktop from "../components/common/NavMenuDesktop";
 import NavMenuMobile from "../components/common/NavMenuMobile";
 import Categories from "../components/home/Categories";
@@ -23,8 +24,9 @@ export class HomePage extends Component {
 
         <FeaturedProducts />
         <NewArrival />
-        <Collection />
         <Categories />
+        <Collection />
+        <FooterDesktop />
       </Fragment>
     );
   }
