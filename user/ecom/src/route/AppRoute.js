@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Contact from "../pages/Contact";
 import HomePage from "../pages/HomePage";
+import UserLoginPage from "../pages/UserLoginPage";
 
 export class AppRoute extends Component {
   render() {
@@ -16,7 +17,8 @@ export class AppRoute extends Component {
         <Router>
           <Routes>
             <Route path="/" exact element={<HomePage />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/login" exact element={<UserLoginPage />} />
           </Routes>
         </Router>
       </Fragment>
