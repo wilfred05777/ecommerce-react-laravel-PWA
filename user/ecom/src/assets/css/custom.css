@@ -11,7 +11,7 @@
 @import "./animate.min.css";
 @import "./megaMenuMobile.css";
 @import "./megaMenuAll.css";
-
+@import "./responsive.css";
 body {
   background-color: #fff;
 }
