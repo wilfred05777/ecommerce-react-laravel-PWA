@@ -33,7 +33,7 @@ export class UserLogin extends Component {
                       type="text"
                       placeholder="Enter Mobile Number"
                     />
-                    <a href="/" className="btn btn-block m-2 site-btn-login">
+                    {/* <a href="/" className="btn btn-block m-2 site-btn-login">
                       <Button
                         className="btn btn-block m-2 site-btn-login"
                         onClick="/"
@@ -41,7 +41,7 @@ export class UserLogin extends Component {
                         {" "}
                         Back{" "}
                       </Button>
-                    </a>
+                    </a> */}
                     <Button className="btn btn-block m-2 site-btn-login">
                       {" "}
                       Next{" "}
