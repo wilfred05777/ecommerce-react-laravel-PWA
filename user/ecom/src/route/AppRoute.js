@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import ContactPage from "../pages/ContactPage";
+import FavouritePage from "../pages/FavouritePage";
 import HomePage from "../pages/HomePage";
 import NotificationPage from "../pages/NotificationPage";
 import PrivacyPage from "../pages/PrivacyPage";
@@ -34,6 +35,7 @@ export class AppRoute extends Component {
               element={<ProductDetailsPage />}
             />
             <Route path="/notification" exact element={<NotificationPage />} />
+            <Route path="/favourite" exact element={<FavouritePage />} />
           </Routes>
         </Router>
       </Fragment>
