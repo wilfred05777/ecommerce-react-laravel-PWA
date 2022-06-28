@@ -9,6 +9,7 @@ import {
 
 import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
+import NotificationPage from "../pages/NotificationPage";
 import PrivacyPage from "../pages/PrivacyPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
 import PurchasePage from "../pages/PurchasePage";
@@ -32,6 +33,7 @@ export class AppRoute extends Component {
               exact
               element={<ProductDetailsPage />}
             />
+            <Route path="/notification" exact element={<NotificationPage />} />
           </Routes>
         </Router>
       </Fragment>
