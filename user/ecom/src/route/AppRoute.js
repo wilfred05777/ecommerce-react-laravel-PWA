@@ -10,6 +10,7 @@ import {
 import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
 import PrivacyPage from "../pages/PrivacyPage";
+import ProductDetailsPage from "../pages/ProductDetailsPage";
 import PurchasePage from "../pages/PurchasePage";
 import RefundPage from "../pages/RefundPage";
 import UserLoginPage from "../pages/UserLoginPage";
@@ -26,6 +27,11 @@ export class AppRoute extends Component {
             <Route path="/privacy" exact element={<PrivacyPage />} />
             <Route path="/refund" exact element={<RefundPage />} />
             <Route path="/purchase" exact element={<PurchasePage />} />
+            <Route
+              path="/productdetails"
+              exact
+              element={<ProductDetailsPage />}
+            />
           </Routes>
         </Router>
       </Fragment>
