@@ -3,6 +3,7 @@ import { Button, Col, Container, Navbar, Row } from "react-bootstrap";
 import Logo from "../../assets/images/easyshop.png";
 import { Link } from "react-router-dom";
 import MegaMenuAll from "../home/MegaMenuAll";
+import Bars from "../../assets/images/bars.png";
 import MegaMenuMobile from "../home/MegaMenuMobile";
 
 export class NavMenuDesktop extends Component {
@@ -51,6 +52,11 @@ export class NavMenuDesktop extends Component {
                   <Button onClick={this.MenuBarClickHandler} className="btn">
                     <i className="fa fa-bars"></i>
                   </Button>
+                  {/* <img
+                    onClick={this.MenuBarClickHandler}
+                    className="bar-img"
+                    src={Bars}
+                  /> */}
                   <Link to="/">
                     <img className="nav-logo" src={Logo} />
                   </Link>
