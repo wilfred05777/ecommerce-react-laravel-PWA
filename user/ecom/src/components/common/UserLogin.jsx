@@ -3,6 +3,9 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import Login from "../../assets/images/login.png";
 
 export class UserLogin extends Component {
+  componentDidMount() {
+    window.scroll(0, 0);
+  }
   render() {
     return (
       <Fragment>
