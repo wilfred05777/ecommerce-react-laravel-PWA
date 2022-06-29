@@ -79,6 +79,7 @@ export class FooterDesktop extends Component {
                 <br></br>
                 Change Your Language <br></br>
                 <div id="google_translate_element"> </div>
+                Erdo
               </Col>
             </Row>
           </Container>
